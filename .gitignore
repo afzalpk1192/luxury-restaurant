@@ -1,0 +1,19 @@
+# Logs & Temp
+*.log
+tmp/
+temp/
+
+# Environment settings
+.env
+.env.local
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
