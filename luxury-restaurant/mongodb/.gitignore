@@ -1,0 +1,10 @@
+# Ignore MongoDB runtime database files and logs
+data/**
+!data/
+!data/db/
+!data/db/.gitkeep
+
+# Ignore large binary executables
+bin/*.exe
+!bin/
+!bin/.gitkeep

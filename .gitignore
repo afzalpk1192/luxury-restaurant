@@ -1,4 +1,4 @@
-# Logs & Temp
+﻿# Logs & Temp
 *.log
 tmp/
 temp/
@@ -15,5 +15,11 @@ desktop.ini
 # IDE & Editor files
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
+
+# Dependencies & Build
+**/node_modules/
+**/dist/
+**/mongodb/data/**
+!**/mongodb/data/db/.gitkeep
+**/*.exe
+!**/bin/.gitkeep
