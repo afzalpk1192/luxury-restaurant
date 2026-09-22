@@ -1,0 +1,11 @@
+{
+  "installCommand": "cd luxury-restaurant/app/frontend && npm install",
+  "buildCommand": "cd luxury-restaurant/app/frontend && npm run build",
+  "outputDirectory": "luxury-restaurant/app/frontend/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
